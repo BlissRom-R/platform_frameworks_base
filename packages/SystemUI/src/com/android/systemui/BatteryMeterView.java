@@ -474,7 +474,6 @@ public class BatteryMeterView extends LinearLayout implements
         } else {
             removeBatteryPercentView();
         }
-        updatePercentText();
     }
 
     public void setIsQsHeader(boolean isQs) {

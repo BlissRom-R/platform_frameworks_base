@@ -990,11 +990,6 @@ public class GlobalActionsDialog implements DialogInterface.OnDismissListener,
         public boolean showBeforeProvisioning() {
             return true;
         }
-
-        @Override
-        public boolean shouldShow() {
-            return mHasTelephony;
-        }
     }
 
     private class EmergencyAffordanceAction extends EmergencyAction {
